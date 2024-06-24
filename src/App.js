@@ -1,13 +1,13 @@
 import './App.sass';
-import Header from "./components/Header/Header";
-import UserPage from "./pages/UserPage/UserPage";
-import Dashboard from "./pages/Dashboard/Dashboard";
+import Header from "./app/components/Header/Header";
+import UserPage from "./app/pages/UserPage/UserPage";
+import Dashboard from "./app/pages/Dashboard/Dashboard";
 import {
     BrowserRouter as Router,
     Routes,
     Route,
 } from "react-router-dom";
-import LoginPage from "./pages/Login/LoginPage";
+import LoginPage from "./app/pages/Login/LoginPage";
 
 function App() {
     return (
